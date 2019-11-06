@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Vladislav Andreev](https://up.htmlacademy.ru/adaptive/18/user/1219887).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Шевцов](https://htmlacademy.ru/profile/id1251615).
 
 ---
 
