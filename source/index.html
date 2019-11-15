@@ -1,12 +1,167 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cat Energy: Главная страница</title>
   </head>
   <body>
+    <header class="page-header">
+      <div class="wrapper">
+        <span class="page-header__logo">
+          <svg class="page-header__icon">
+            <use xlink:href="#logo"></use>
+          </svg>
+        </span>
+        <img class="page-header__logo-text" src="" alt="">
+        <nav class="promo-nav">
+          <ul class="promo-nav__list">
+            <li class="promo-nav__item">
+              <span class="promo-nav__link">Главная</span>
+            </li>
+            <li class="promo-nav__item">
+              <a class="promo-nav__link" href="catalog.html">Каталог продукции</a>
+            </li>
+            <li class="promo-nav__item">
+              <a class="promo-nav__link" href="form.html">Подбор программы</a>
+            </li>
+          </ul>
+          <button class="promo-nav__menu" type="button" aria-label="Показать навигацию">
+            <svg class="promo-nav__icon">
+              <use xlink:href="#menu"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+    <section class="promo">
+      <div class="wrapper">
+        <h1 class="promo__title">Функциональное питание для котов</h1>
+        <p class="promo__description">Занялся собой? Займись котом!</p>
+      </div>
+    </section>
 
+    <section class="program">
+      <div class="wrapper">
+        <h2 class="visually-hidden">Подбор программы</h2>
+        <figure class="program__figure">
+          <img class="program__image" src="" alt="">
+          <figcaption class="program__figcaption">
+            <a class="program__link" href="#"></a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="wrapper">
+        <h2 class="visually-hidden">Категории</h2>
+        <section class="categories__section">
+          <header class="categories__header">
+            <svg class="categories__icon">
+              <use xlink:href="#something"></use>
+            </svg>
+            <h2 class="categories__title">Похудение</h2>
+          </header>
+          <p class="categories__description">
+            Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
+          </p>
+          <a class="categories__link" href="#">Каталог slim</a>
+        </section>
+
+        <section class="categories__section">
+          <header class="categories__header">
+            <svg class="categories__icon">
+              <use xlink:href="#something"></use>
+            </svg>
+            <h2 class="categories__title">Набор массы</h2>
+          </header>
+          <p class="categories__description">
+              Заработать авторитет среди дворовых котов и даже собак?
+              Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
+          </p>
+          <a class="categories__link" href="#">Каталог pro</a>
+        </section>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="wrapper">
+        <h3 class="advantages__title">Как это работает</h3>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use xlink:href="#something"></use>
+            </svg>
+            <p class="advantages__description">
+              Функциональное питание содержит только полезные питательные вещества.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use xlink:href="#something"></use>
+            </svg>
+            <p class="advantages__description">
+              Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use xlink:href="#something"></use>
+            </svg>
+            <p class="advantages__description">
+              Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+            </p>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__icon">
+              <use xlink:href="#something"></use>
+            </svg>
+            <p class="advantages__description">
+              Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="wrapper">
+        <span class="logo">
+          <img class="logo__image" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Cat Energy">
+        </span>
+        <ul class="social-networks">
+          <li class="social-networks__item">
+            <a class="social-networks__link" href="https://vk.com" aria-label="Мы в Вконтакте">
+              <svg class="social-networks__icon">
+                <use xlink:href="#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-networks__item">
+            <a class="social-networks__link" href="https://instagram.com" aria-label="Мы в инстаграме">
+              <svg class="social-networks__icon">
+                <use xlink:href="#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-networks__item">
+            <a class="social-networks__link" href="https://fb.com" aria-label="Мы в фейсбуке">
+              <svg class="social-networks__icon">
+                <use xlink:href="#fb"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <a class="authors" href="https://htmlacademy.ru">
+          <span class="authors__text">HTML Academy</span>
+          <svg class="authors__image">
+            <use xlink:href="#logo"></use>
+          </svg>
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
