@@ -7,105 +7,117 @@
     <title>Cat Energy: Каталог продукции</title>
   </head>
   <body>
-    <header class="page-header">
-      <div class="wrapper">
-        <a class="page-header__logo" href="index.html">
-          <svg class="page-header__icon">
-            <use xlink:href="#logo"></use>
+  <header class="page-header">
+    <div class="wrapper">
+      <a class="page-header__logo" href="index.html">
+        <svg class="page-header__icon">
+          <use xlink:href="#logo"></use>
+        </svg>
+      </a>
+      <img class="page-header__logo-text" src="" alt="">
+      <nav class="promo-nav">
+        <ul class="promo-nav__list">
+          <li class="promo-nav__item">
+            <a class="promo-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="promo-nav__item">
+            <span class="promo-nav__link">Каталог продукции</span>
+          </li>
+          <li class="promo-nav__item">
+            <a class="promo-nav__link" href="form.html">Подбор программы</a>
+          </li>
+        </ul>
+        <button class="promo-nav__menu" type="button" aria-label="Показать навигацию">
+          <svg class="promo-nav__icon">
+            <use xlink:href="#menu"></use>
           </svg>
-        </a>
-        <img class="page-header__logo-text" src="" alt="">
-        <nav class="promo-nav">
-          <ul class="promo-nav__list">
-            <li class="promo-nav__item">
-              <a class="promo-nav__link" href="index.html">Главная</a>
-            </li>
-            <li class="promo-nav__item">
-              <span class="promo-nav__link">Каталог продукции</span>
-            </li>
-            <li class="promo-nav__item">
-              <a class="promo-nav__link" href="form.html">Подбор программы</a>
-            </li>
-          </ul>
-          <button class="promo-nav__menu" type="button" aria-label="Показать навигацию">
-            <svg class="promo-nav__icon">
-              <use xlink:href="#menu"></use>
-            </svg>
-          </button>
-        </nav>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <section class="catalog">
+      <h1 class="catalog__title">Каталог продукции</h1>
+      <figure class="product">
+        <img class="product__image" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Catalog">
+        <figcaption class="product__figcaption">
+          <h2 class="product__title">Каталог продукции</h2>
+          <table class="product__table">
+            <tbody class="product__tbody">
+              <tr class="product__table-row">
+                <th class="product__table-heading">Объём</th>
+                <td class="product__table-cell">500г</td>
+              </tr>
+              <tr>
+                <th class="product__table-heading">Вкус</th>
+                <td class="product__table-cell">Курица</td>
+              </tr>
+              <tr>
+                <th class="product__table-heading">Цена</th>
+                <td class="product__table-cell">700 р</td>
+              </tr>
+            </tbody>
+          </table>
+          <a class="product__link" href="#">Заказать</a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="more">
+      <h3 class="more__title">Показать еще 100500 товаров</h3>
+      <p class="more__description">На самом деле вкусов гораздо больше!</p>
+      <a class="more__link" href="#">Показать все</a>
+    </section>
+
+    <section class="additional-products">
+      <div class="wrapper">
+        <h3 class="addirional-products">Дополнительные товары</h3>
+
+        <section class="additional-products--sugar">
+          <table class="table">
+            <tbody class="tbody">
+              <tr class="table__row">
+                <th>
+                  <h3 class="table__title">Сахарозаменитель</h3>
+                </th>
+                <th>
+                  <p class="table__description">1 упаковка(100г)</p>
+                </th>
+                <td>
+                  <p class="table__description table__description--small">200 р.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </div>
-    </header>
+    </section>
 
-    <main class="page-content">
-      <section class="catalog">
-        <h1 class="catalog__title">Каталог продукции</h1>
-        <figure class="product">
-          <img class="product__image" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Catalog">
-          <figcaption class="product__figcaption">
-            <h2 class="product__title">Каталог продукции</h2>
-            <table class="product__table">
-              <tbody class="product__tbody">
-                <tr class="product__table-row">
-                  <th class="product__table-heading">Объём</th>
-                  <td class="product__table-cell">500г</td>
-                </tr>
-                <tr>
-                  <th class="product__table-heading">Вкус</th>
-                  <td class="product__table-cell">Курица</td>
-                </tr>
-                <tr>
-                  <th class="product__table-heading">Цена</th>
-                  <td class="product__table-cell">700 р</td>
-                </tr>
-              </tbody>
-            </table>
-            <a class="product__link" href="#">Заказать</a>
-          </figcaption>
-        </figure>
-      </section>
+    <section class="picture">
+      <div class="wrapper">
+        <img class="picrure__img" src="#cat" alt="Cat">
+        <a class="picture__link" href="#">
+          Закажите все <br>
+          и получите чехол для <br>
+          кота в подарок!
+          </a>
+      </div>
+    </section>
 
-      <section class="more">
-        <h3 class="more__title">Показать еще 100500 товаров</h3>
-        <p class="more__description">На самом деле вкусов гораздо больше!</p>
-        <a class="more__link" href="#">Показать все</a>
-      </section>
+    <article class="cooperation">
+      <div class="wrapper">
+        <p class="cooperation__description">Приглашаем к сотрудничеству дилеров!</p>
+        <address class="cooperation__address">
+          ул. Большая <br>
+          Конюшенная, д. 19/8 <br>
+          Санкт-Петербург
+        </address>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.60006680799!2d30.32319674195278!3d59.93877821271746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca640933%3A0x8403eb878242dbd5!2z0JTQvtGF0L7QtNC90YvQuSDQtNC-0Lwg0J0uINCQLiDQnNC10LvRjNGG0LXRgNCw!5e0!3m2!1sru!2sru!4v1574085523306!5m2!1sru!2sru" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </article>
 
-      <section class="additional-products">
-        <div class="wrapper">
-          <h3 class="addirional-products">Дополнительные товары</h3>
-
-          <section class="additional-products--sugar">
-            <table class="table">
-              <tbody class="tbody">
-                <tr class="table__row">
-                  <th>
-                    <h3 class="table__title">Сахарозаменитель</h3>
-                  </th>
-                  <th>
-                    <p class="table__description">1 упаковка(100г)</p>
-                  </th>
-                  <td>
-                    <p class="table__description table__description--small">200 р.</p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-        </div>
-      </section>
-
-      <section class="picture">
-        <div class="wrapper">
-          <img class="picrure__img" src="#cat" alt="Cat">
-          <a class="picture__link" href="#">
-            Закажите все <br>
-            и получите чехол для <br>
-            кота в подарок!
-            </a>
-        </div>
-      </section>
-
-    </main>
+  </main>
     
     <footer class="page-footer">
       <div class="wrapper">
