@@ -1,0 +1,24 @@
+.social-networks {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  border-top: 1px solid $light-gray;
+  border-bottom: 1px solid $light-gray;
+  padding-top: 26px;
+  padding-bottom: 24px;
+}
+
+.social-networks__item {
+  margin-right: 37px;
+  list-style: none;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.social-networks__icon:hover {
+  fill: $green;
+}

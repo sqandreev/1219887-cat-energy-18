@@ -1,0 +1,20 @@
+$black: #666666;
+
+.authors {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+
+  &:hover &__icon {
+    fill: #68b738;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.authors__text {
+  font-size: 16px;
+  color: $black;
+}

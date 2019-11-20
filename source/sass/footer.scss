@@ -1,0 +1,19 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $primary-color;
+  padding-top: 39px;
+  padding-bottom: 31px
+}
+
+.page-footer__logo {
+  display: block;
+  margin-bottom: 31px;
+
+  text-align: center;
+}
+
+.page-footer__social-networks {
+  margin-bottom: 31px;
+}
