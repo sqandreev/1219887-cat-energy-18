@@ -3,6 +3,7 @@ $black: #666666;
 .authors {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   text-decoration: none;
 
   &:hover &__icon {
@@ -17,4 +18,13 @@ $black: #666666;
 .authors__text {
   font-size: 16px;
   color: $black;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-right: 22px;
+  }
+}
+
+.authors__icon {
+  width: 27px;
+  height: 34px;
 }
