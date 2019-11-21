@@ -1,7 +1,26 @@
 @import "variables.scss";
 
+@font-face {
+  font-family: "Oswald Regular";
+  src: url("../fonts/oswaldregular.woff") format("woff"),
+       url("../fonts/oswaldregular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Oswald Medium";
+  src: url("../fonts/oswaldregular.woff") format("woff"),
+       url("../fonts/oswaldregular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   margin: 0;
+
+  font-family: "Oswald Regular";
 }
 
 .wrapper {
@@ -27,6 +46,7 @@ body {
 
 @import "header.scss";
 @import "social-networks.scss";
+@import "advantages.scss";
 @import "footer.scss";
 @import "logo.scss";
 @import "authors.scss";
