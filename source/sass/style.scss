@@ -8,7 +8,6 @@
   font-style: normal;
 }
 
-
 @font-face {
   font-family: "Oswald Medium";
   src: url("../fonts/oswaldregular.woff") format("woff"),
@@ -43,9 +42,20 @@ body {
   }
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
 
 @import "header.scss";
 @import "social-networks.scss";
+@import "categories.scss";
 @import "advantages.scss";
 @import "footer.scss";
 @import "logo.scss";
