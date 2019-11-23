@@ -1,0 +1,148 @@
+.main-nav {
+  height: 65px; // Узнать причину 70px при min-height
+}
+
+@media (max-width: 767px) {
+  .main-nav__menu {
+    width: 50px;
+    height: 65px;
+    padding: 0;
+
+    background-color: transparent;
+    border: none;
+
+    background-image: url("../img/icon-mobile-menu.svg");
+    background-repeat: no-repeat;
+    background-size: 24px 18px;
+    background-position: center;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &--active {
+      background-image: url("../img/icon-close.svg");
+      background-size: 18px;
+    }
+  }
+
+  .main-nav__list {
+    position: absolute;
+    top: 66px;
+    right: 0;
+    left: 0;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    list-style-type: none;
+
+    display: none;
+
+    &--active {
+      display: block;
+    }
+  }
+
+  .main-nav__link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 20px;
+
+    color: #111111;
+
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #ffffff;
+
+    font-size: 20px;
+    font-family: "Oswald Medium";
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.main-nav {
+  @media (min-width: $tablet-screen-width) {
+    height: auto;
+  }
+}
+
+.main-nav__menu {
+  @media (min-width: $tablet-screen-width) {
+    display: none;
+  }
+}
+
+.main-nav__list {
+  @media (min-width: $tablet-screen-width) {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    list-style-type: none;
+  }
+}
+
+.main-nav__item {
+  @media (min-width: $tablet-screen-width) {
+    margin-right: 36px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.main-nav__link {
+  @media (min-width: $tablet-screen-width) {
+    position: relative;
+
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    text-decoration: none;
+    color: #111111;
+    text-transform: uppercase;
+    font-family: "Oswald Medium";
+    font-size: 18px;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
+
+    &--active {
+      &:hover {
+        cursor: default;
+      }
+
+      &:hover,
+      &:active {
+        opacity: 1;
+      }
+
+      &::after {
+        content: "";
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        height: 2px;
+        background-color: $green;
+      }
+    }
+  }
+}
