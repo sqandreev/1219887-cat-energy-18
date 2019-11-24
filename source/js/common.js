@@ -1,4 +1,4 @@
-;(() => {
+(() => {
   "use strict";
 
   const mainNavMenu = document.querySelector(".main-nav__menu");
