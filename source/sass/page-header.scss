@@ -2,7 +2,6 @@
   position: relative;
   min-height: 65px;
 
-  background-color: #ffffff;
   border-bottom: 1px solid #e6e6e6;
 
   @media (min-width: $tablet-screen-width) {
@@ -13,6 +12,9 @@
   }
 
   @media (min-width: $desktop-screen-width) {
+    position: absolute;
+    left: 0;
+    right: 0;
     padding-top: 50px;
     padding-bottom: 50px;
   }

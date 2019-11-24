@@ -1,5 +1,10 @@
 .categories .wrapper {
+  @media (min-width: $tablet-screen-width) {
+    padding-top: 25px;
+  }
+
   @media(min-width: $desktop-screen-width) {
+    padding-top: 80px;
     display: flex;
     justify-content: space-between;
   }
