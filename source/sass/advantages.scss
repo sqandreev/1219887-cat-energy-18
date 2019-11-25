@@ -1,3 +1,13 @@
+.advantages {
+  @media (min-width: $tablet-screen-width) {
+    border-bottom: 1px solid $dark-gray;
+  }
+  
+  @media (min-width: $desktop-screen-width) {
+    border-bottom: none;
+  }
+}
+
 .advantages .wrapper {
   padding-top: 32px;
   padding-bottom: 42px;
@@ -5,6 +15,10 @@
   @media (min-width: $tablet-screen-width) {
     padding-top: 54px;
     padding-bottom: 54px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-bottom: 300px;
   }
 }
 
