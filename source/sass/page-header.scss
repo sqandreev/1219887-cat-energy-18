@@ -18,7 +18,14 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  &--catalog {
+    @media (min-width: $desktop-screen-width) {
+      position: static;
+    }
+  }
 }
+
 
 .page-header .wrapper {
   display: flex;
