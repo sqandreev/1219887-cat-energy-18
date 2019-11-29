@@ -155,7 +155,7 @@
     color: $white;
   }
 
-  &--active-catalog::after {
+  &--active-general::after {
 
     @media (min-width: $tablet-screen-width) {
       content: "";
@@ -170,7 +170,7 @@
     }
   }
 
-  &--catalog {
+  &--general {
     @media (min-width: $desktop-screen-width) {
       color: #111111;
     }

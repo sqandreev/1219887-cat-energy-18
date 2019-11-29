@@ -1,8 +1,26 @@
+.catalog {
+  @media (min-width: $tablet-screen-width) {
+    padding-bottom: 88px;
+  }
+}
+
 .catalog__title {
+  width: 100%;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 156px;
+  padding-top: 39px;
 
   font-size: 36px;
-  
+
+  @media (min-width: $tablet-screen-width) {
+    margin-bottom: 155px;
+  }
+}
+
+.catalog__wrapper {
+  @media (min-width: $tablet-screen-width) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
