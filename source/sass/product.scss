@@ -29,7 +29,8 @@
 
   @media (min-width: $tablet-screen-width) {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
 
     width: 320px;
@@ -92,6 +93,7 @@
   @media (min-width: $tablet-screen-width) {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   @media (min-width: $desktop-screen-width) {
