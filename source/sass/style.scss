@@ -19,7 +19,7 @@
 body {
   margin: 0;
 
-  font-family: "Oswald Regular";
+  font-family: "Oswald Regular","Tahoma", sans-serif;
 }
 
 .wrapper {
@@ -52,6 +52,7 @@ body {
 @import "product.scss";
 @import "more.scss";
 @import "form.scss";
+@import "extra-products";
 @import "categories.scss";
 @import "advantages.scss";
 @import "gap-block.scss";

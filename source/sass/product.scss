@@ -6,35 +6,20 @@
   display: flex;
   margin: 0;
 
-  // &::before,
-  // &::after {
-  //   content: "";
-
-  //   position: absolute;
-  //   left: 0;
-  //   right: 0;
-
-  //   height: 1px;
-
-  //   background-color: $dark-gray;
-  // }
-
-  // &::before {
-  //   top: 0;
-  // }
-
-  // &:after {
-  //   bottom: 0;
-  // }
+  box-sizing: border-box;
 
   @media (min-width: $tablet-screen-width) {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 
-    width: 320px;
+    width: 246px;
+    height: 430px;
+    padding-top: 166px;
     margin-bottom: 140px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
 
     background-color: $primary-color;
 
@@ -52,10 +37,11 @@
   &--small {
     @media (min-width: $tablet-screen-width) {
       position: absolute;
+      left: -35px;
       top: -30px;
 
       width: 324px;
-      height: 172px;
+      height: 174px;
     }
 
     @media (min-width: $desktop-screen-width) {
@@ -66,6 +52,10 @@
 
   &--big {
     @media (min-width: $tablet-screen-width) {
+      position: absolute;
+      left: -40px;
+      top: -52px;
+
       width: 324px;
       height: 208px;
     }
@@ -93,7 +83,9 @@
   @media (min-width: $tablet-screen-width) {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
   }
 
   @media (min-width: $desktop-screen-width) {
@@ -111,6 +103,10 @@
   font-weight: normal;
   text-align: left;
 
+  @media (min-width: $tablet-screen-width) {
+    border-bottom: 1px solid $dark-gray;
+  }
+
   @media (min-width: $desktop-screen-width) {
     width: 50%;
   }
@@ -120,6 +116,10 @@
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
+
+  @media (min-width: $tablet-screen-width) {
+    border-bottom: 1px solid $dark-gray;
+  }
 
   @media (min-width: $desktop-screen-width) {
     width: 50%;
@@ -139,4 +139,12 @@
   text-transform: uppercase;
   
   background-color: $green;
+
+  @media (min-width: $tablet-screen-width) {
+    bottom: 40px;
+
+    padding: 13px 93px 13px 95px;
+
+    box-sizing: border-box;
+  }
 }
