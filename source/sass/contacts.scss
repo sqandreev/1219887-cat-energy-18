@@ -47,6 +47,8 @@
     padding-right: 76px;
     padding-left: 76px;
     width: 570px;
+
+    z-index: 1;
   }
 }
 
@@ -113,7 +115,5 @@
 
   @media (min-width: $desktop-screen-width) {
     height: 400px;
-
-    z-index: -1;
   }
 }

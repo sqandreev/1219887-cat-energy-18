@@ -2,9 +2,9 @@
   background-color: $primary-color;
 }
 
-.page-footer .wrapper {
+.page-footer__wrapper {
   padding-top: 39px;
-  padding-bottom: 31px;
+  padding-bottom: 22px;
 
   @media (min-width: $tablet-screen-width) {
     display: flex;
@@ -21,10 +21,7 @@
 }
 
 .page-footer__logo {
-  display: block;
   margin-bottom: 31px;
-
-  text-align: center;
 
   @media (min-width: $tablet-screen-width) {
     margin-bottom: 0;
