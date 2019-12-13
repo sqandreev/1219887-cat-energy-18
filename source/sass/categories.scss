@@ -151,12 +151,11 @@
 
 .categories__description {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 48px;
   font-size: 14px;
   line-height: 18px;
   width: 240px;
   border-bottom: 1px solid $light-gray;
-  padding-bottom: 24px;
   font-family: Arial;
 
   @media(min-width: $tablet-screen-width) {
