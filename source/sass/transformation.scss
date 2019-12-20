@@ -417,9 +417,8 @@ body {
 }
 
 .transformation__filter-button--before {
-  margin-right: auto;
-
   @media (min-width: $tablet-screen-width) {
+    margin-right: auto;
     margin-left: 0;
   }
 }
