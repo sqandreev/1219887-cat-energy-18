@@ -416,6 +416,32 @@ body {
   outline: none;
 }
 
+.transformation__filter-button--before {
+  margin-right: auto;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-left: 0;
+  }
+}
+
 .transformation__filter-button--after {
   margin-left: auto;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: $tablet-screen-width) {
+  .transformation__image--invisible {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: $tablet-screen-width) {
+  .transformation__image--visible {
+    width: 100%;
+
+    object-fit: none;
+  }
 }
