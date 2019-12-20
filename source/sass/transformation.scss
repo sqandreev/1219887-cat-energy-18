@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .transformation {
   position: relative;
 
@@ -9,6 +13,8 @@
   @media (min-width: $tablet-screen-width) {
     padding-top: 52px;
     padding-bottom: 68px;
+
+    background-color: #ffffff;
 
      &::after {
       content: "";
@@ -23,6 +29,20 @@
       background-image: linear-gradient(to right, #f2f2f2 50%, #eaeaea 50%);
     }
   }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-top: 76px;
+
+    background-color: #f2f2f2;
+
+    &::after {
+      content: none;
+    }
+  }
+}
+
+.transformation__wrapper {
+  position: relative;
 }
 
 .transformation__title {
@@ -38,6 +58,13 @@
     margin-bottom: 62px;
 
     font-size: 60px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    position: absolute;
+    top: -204px;
+
+    margin-bottom: 0;
   }
 }
 
@@ -58,6 +85,10 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  @media (min-width: $desktop-screen-width) {
+    width: 432px;
+  }
 }
 
 .transformation__info {
@@ -68,6 +99,11 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    display: block;
+    margin-bottom: 0;
   }
 }
 
@@ -83,6 +119,10 @@
   @media (min-width: $tablet-screen-width) {
     justify-content: flex-start;
     margin-bottom: 0;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-bottom: 62px;
   }
 }
 
@@ -169,6 +209,18 @@
 
     line-height: 29px;
   }
+
+  @media (min-width: $desktop-screen-width) {
+    width: auto;
+
+    text-align: left;
+  }
+}
+
+@media (min-width: $desktop-screen-width) {
+  .transformation__info-price {
+    margin-right: 64px;
+  }
 }
 
 .transformation__result {
@@ -179,6 +231,28 @@
   @media (min-width: $tablet-screen-width) {
     position: relative;
     z-index: 1;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    position: absolute;
+    top: -268px;
+    right: 0;
+    bottom: 0;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      top: 192px;
+      left: 50%;
+      bottom: -68px;
+      right: 0;
+      z-index: -1;
+
+      width: 100%;
+
+      background-color: #eaeaea;
+    }
   }
 }
 
@@ -235,6 +309,10 @@
 
   @media (min-width: $tablet-screen-width) {
     width: 570px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    transform: translateX(3px);
   }
 }
 
