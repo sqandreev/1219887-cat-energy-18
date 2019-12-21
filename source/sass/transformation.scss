@@ -1,19 +1,9 @@
-body {
-  overflow-x: hidden;
-}
-
 .transformation {
   position: relative;
-
-  padding-top: 33px;
-  padding-bottom: 38px;
 
   background-color: #f2f2f2;
 
   @media (min-width: $tablet-screen-width) {
-    padding-top: 52px;
-    padding-bottom: 68px;
-
     background-color: #ffffff;
 
      &::after {
@@ -31,9 +21,8 @@ body {
   }
 
   @media (min-width: $desktop-screen-width) {
-    padding-top: 76px;
-
-    background-color: #f2f2f2;
+    background-color: transparent;
+    background-image: linear-gradient(to right, #f2f2f2 50%, #eaeaea 50%);
 
     &::after {
       content: none;
@@ -43,6 +32,20 @@ body {
 
 .transformation__wrapper {
   position: relative;
+
+  padding-top: 33px;
+  padding-bottom: 38px;
+
+  @media (min-width: $tablet-screen-width) {
+    padding-top: 52px;
+    padding-bottom: 68px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-top: 76px;
+
+    background-color: #f2f2f2;
+  }
 }
 
 .transformation__title {
@@ -62,7 +65,7 @@ body {
 
   @media (min-width: $desktop-screen-width) {
     position: absolute;
-    top: -204px;
+    top: -128px;
 
     margin-bottom: 0;
   }
@@ -235,9 +238,11 @@ body {
 
   @media (min-width: $desktop-screen-width) {
     position: absolute;
-    top: -268px;
+    top: -192px;
     right: 0;
     bottom: 0;
+
+    width: 610px;
 
     &::before {
       content: "";
@@ -245,11 +250,9 @@ body {
       position: absolute;
       top: 192px;
       left: 50%;
-      bottom: -68px;
+      bottom: 0;
       right: 0;
       z-index: -1;
-
-      width: 100%;
 
       background-color: #eaeaea;
     }
@@ -312,7 +315,7 @@ body {
   }
 
   @media (min-width: $desktop-screen-width) {
-    transform: translateX(3px);
+    transform: translateX(2px);
   }
 }
 
