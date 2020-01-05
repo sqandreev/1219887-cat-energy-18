@@ -6,7 +6,7 @@
   @media (min-width: $tablet-screen-width) {
     background-color: #ffffff;
 
-     &::after {
+    &::after {
       content: "";
 
       position: absolute;
@@ -393,7 +393,7 @@
     background-color: #ffffff;
     background-image: radial-gradient(#68b738 4px, transparent 4px);
     box-shadow: inset 0 0 0 1px #cdcdcd,
-                0 2px 5px rgba(0, 0, 0, 0.15);
+      0 2px 5px rgba(0, 0, 0, 0.15);
 
     transition-property: box-shadow;
     transition-duration: 0.75s;
@@ -401,12 +401,12 @@
 
     &:hover {
       box-shadow: inset 0 0 0 1px #cdcdcd,
-                  0 3px 5px rgba(0, 0, 0, 0.25);
+        0 3px 5px rgba(0, 0, 0, 0.25);
     }
 
     &:focus {
       box-shadow: inset 0 0 0 2px #68b738,
-                  0 4px 5px rgba(0, 0, 0, 0.30);
+        0 4px 5px rgba(0, 0, 0, 0.3);
     }
   }
 }

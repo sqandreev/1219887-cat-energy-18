@@ -37,7 +37,7 @@
     left: 50%;
     transform: translateX(-50%);
 
-    background-image: url(../img/icon-plus-mobile.svg);
+    background-image: url("../img/icon-plus-mobile.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -75,7 +75,7 @@
   @media (min-width: $tablet-screen-width) {
     padding-top: 16px;
     padding-right: 73px;
-    padding-bottom: 16px; 
+    padding-bottom: 16px;
     padding-left: 75px;
   }
 }

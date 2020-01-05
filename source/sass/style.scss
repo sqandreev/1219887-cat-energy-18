@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Oswald Regular";
   src: url("../fonts/oswaldregular.woff") format("woff"),
-       url("../fonts/oswaldregular.woff2") format("woff2");
+    url("../fonts/oswaldregular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,7 +11,7 @@
 @font-face {
   font-family: "Oswald Medium";
   src: url("../fonts/oswaldmedium.woff") format("woff"),
-       url("../fonts/oswaldmedium.woff2") format("woff2");
+    url("../fonts/oswaldmedium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
 }
@@ -19,7 +19,7 @@
 body {
   margin: 0;
 
-  font-family: "Oswald Regular","Tahoma", sans-serif;
+  font-family: "Oswald Regular", "Tahoma", sans-serif;
 }
 
 .wrapper {
@@ -53,7 +53,6 @@ body {
 @import "product.scss";
 @import "more.scss";
 @import "form.scss";
-@import "extra-products";
 @import "categories.scss";
 @import "advantages.scss";
 @import "contacts.scss";
@@ -65,7 +64,6 @@ body {
 .visually-hidden {
   position: absolute;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
   padding: 0;
   border: 0;
   height: 1px;
