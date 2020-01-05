@@ -1,0 +1,72 @@
+@import "variables.scss";
+
+@font-face {
+  font-family: "Oswald Regular";
+  src: url("../fonts/oswaldregular.woff") format("woff"),
+    url("../fonts/oswaldregular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald Medium";
+  src: url("../fonts/oswaldmedium.woff") format("woff"),
+    url("../fonts/oswaldmedium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Oswald Regular", "Tahoma", sans-serif;
+}
+
+.wrapper {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media (min-width: $tablet-screen-width) {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 708px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 1220px;
+  }
+}
+
+@import "row.scss";
+@import "page-header.scss";
+@import "main-nav.scss";
+@import "promo.scss";
+@import "result.scss";
+@import "social-networks.scss";
+@import "catalog.scss";
+@import "page-content";
+@import "product.scss";
+@import "more.scss";
+@import "form.scss";
+@import "categories.scss";
+@import "advantages.scss";
+@import "contacts.scss";
+@import "page-footer.scss";
+@import "transformation.scss";
+@import "logo.scss";
+@import "authors.scss";
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
