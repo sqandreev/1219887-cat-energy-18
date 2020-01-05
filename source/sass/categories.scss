@@ -3,7 +3,7 @@
     padding-top: 25px;
   }
 
-  @media(min-width: $desktop-screen-width) {
+  @media (min-width: $desktop-screen-width) {
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@
     margin-bottom: 0;
   }
 
-  @media(min-width: $tablet-screen-width) {
+  @media (min-width: $tablet-screen-width) {
     width: auto;
     padding: 78px 62px 63px 53px;
     margin-bottom: 30px;
@@ -47,13 +47,13 @@
   padding-left: 78px;
   min-height: 50px;
 
-  @media(min-width: $tablet-screen-width) {
+  @media (min-width: $tablet-screen-width) {
     font-size: 36px;
     margin-bottom: 27px;
     padding-left: 0;
   }
 
-  @media(min-width: $desktop-screen-width) {
+  @media (min-width: $desktop-screen-width) {
     margin-bottom: 45px;
     padding-left: 165px;
     min-height: 100px;
@@ -70,7 +70,7 @@
     top: 0;
     left: 0;
 
-    @media(min-width: $tablet-screen-width) {
+    @media (min-width: $tablet-screen-width) {
       width: 200px;
       height: 200px;
       left: auto;
@@ -78,7 +78,7 @@
       right: 0;
     }
 
-    @media(min-width: $desktop-screen-width) {
+    @media (min-width: $desktop-screen-width) {
       width: 100px;
       height: 100px;
       right: auto;
@@ -107,7 +107,7 @@
 
     background-image: url("../img/icon-cat-slim.svg");
 
-    @media(min-width: $tablet-screen-width) {
+    @media (min-width: $tablet-screen-width) {
       width: 140px;
       height: 194px;
       top: 86px;
@@ -115,7 +115,7 @@
       left: auto;
     }
 
-    @media(min-width: $desktop-screen-width) {
+    @media (min-width: $desktop-screen-width) {
       width: 70px;
       height: 97px;
       top: 40px;
@@ -131,7 +131,7 @@
 
     background-image: url("../img/icon-cat-pro.svg");
 
-    @media(min-width: $tablet-screen-width) {
+    @media (min-width: $tablet-screen-width) {
       width: 268px;
       height: 112px;
       top: 110px;
@@ -139,7 +139,7 @@
       left: auto;
     }
 
-    @media(min-width: $desktop-screen-width) {
+    @media (min-width: $desktop-screen-width) {
       width: 134px;
       height: 56px;
       top: 50px;
@@ -159,7 +159,7 @@
   border-bottom: 1px solid $light-gray;
   font-family: Arial;
 
-  @media(min-width: $tablet-screen-width) {
+  @media (min-width: $tablet-screen-width) {
     font-size: 16px;
     line-height: 24px;
     border-bottom: 0;
@@ -167,7 +167,7 @@
     margin-bottom: 48px;
   }
 
-  @media(min-width: $desktop-screen-width) {
+  @media (min-width: $desktop-screen-width) {
     width: 443px;
   }
 }
@@ -180,7 +180,7 @@
   text-transform: uppercase;
   padding-right: 46px;
 
-  @media(min-width: $tablet-screen-width) {
+  @media (min-width: $tablet-screen-width) {
     font-size: 20px;
   }
 
@@ -194,7 +194,7 @@
     position: absolute;
     width: 23px;
     height: 11px;
-    background-image: url(../img/icon-right-arrow-long.svg);
+    background-image: url("../img/icon-right-arrow-long.svg");
     background-repeat: no-repeat;
     background-position: center;
     top: 50%;
@@ -205,6 +205,6 @@
 
   &:hover::after {
     width: 33px;
-    background-image: url(../img/icon-right-arrow-verylong.svg);
+    background-image: url("../img/icon-right-arrow-verylong.svg");
   }
 }
