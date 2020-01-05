@@ -1,5 +1,9 @@
 .main-nav {
   height: 65px; // Узнать причину 70px при min-height
+
+  @media (min-width: $tablet-screen-width) {
+    height: auto;
+  }
 }
 
 @media (max-width: 767px) {
@@ -61,18 +65,18 @@
     background-color: #ffffff;
 
     font-size: 20px;
-    font-family: "Oswald Medium";
+    font-family: "Oswald Medium", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
   }
 }
 
-.main-nav {
-  @media (min-width: $tablet-screen-width) {
-    height: auto;
-  }
-}
+// .main-nav {
+//   @media (min-width: $tablet-screen-width) {
+//     height: auto;
+//   }
+// }
 
 .main-nav__menu {
   @media (min-width: $tablet-screen-width) {
@@ -112,7 +116,7 @@
     text-decoration: none;
     color: #111111;
     text-transform: uppercase;
-    font-family: "Oswald Medium";
+    font-family: "Oswald Medium", sans-serif;
     font-size: 18px;
 
     &:hover {
@@ -156,7 +160,6 @@
   }
 
   &--active-general::after {
-
     @media (min-width: $tablet-screen-width) {
       content: "";
 

@@ -2,15 +2,15 @@
  * product
  */
 
-  .product {
-    position: relative;
+.product {
+  position: relative;
 
-    display: flex;
-    margin: 0;
-    padding-bottom: 87px;
+  display: flex;
+  margin: 0;
+  padding-bottom: 87px;
 
-    border-bottom: 1px solid #ededed;
-  }
+  border-bottom: 1px solid #ededed;
+}
 
 @media (min-width: 768px) { /* tablet */
   .product {
@@ -57,7 +57,7 @@
     height: 174px;
 
     transform: translateX(-50%);
-    }
+  }
 
   .product__image--small {
     top: -47px;
@@ -66,7 +66,7 @@
   .product__image--big {
     top: -82px;
     height: 208px;
-    }
+  }
 }
 
 @media (min-width: 1300px) { /* desktop */
@@ -80,9 +80,9 @@
   }
 }
 
-  .product__content {
-    padding-top: 23px;
-    width: 140px;
+.product__content {
+  padding-top: 23px;
+  width: 140px;
 }
 
 @media (min-width: 768px) { /* tablet */
@@ -96,16 +96,16 @@
   }
 }
 
-  .product__title {
-    margin-top: 0;
-    margin-bottom: 0;
+.product__title {
+  margin-top: 0;
+  margin-bottom: 0;
 
-    font-size: 16px;
-    font-weight: normal;
-    font-family: "Oswald", "Arial", sans-serif;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #111111;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Oswald", "Arial", sans-serif;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #111111;
 }
 
 @media (min-width: 768px) { /* tablet */
@@ -115,14 +115,14 @@
   }
 }
 
-  .product__link {
-    text-decoration: none;
-    color: #111111;
+.product__link {
+  text-decoration: none;
+  color: #111111;
 }
 
-  .product__table {
-    width: 100%;
-    border-spacing: 0;
+.product__table {
+  width: 100%;
+  border-spacing: 0;
 }
 
 @media (min-width: 768px) { /* tablet */
@@ -132,11 +132,11 @@
   }
 }
 
-  .product__caption {
-    width: 72px;
-    margin-bottom: 19px;
+.product__caption {
+  width: 72px;
+  margin-bottom: 19px;
 
-    text-align: left;
+  text-align: left;
 }
 
 @media (min-width: 768px) { /* tablet */
@@ -205,7 +205,7 @@
   text-transform: uppercase;
 
   background-color: #68b738;
-  }
+}
 
 @media (min-width: 768px) {
   .product__button {
@@ -213,10 +213,10 @@
   }
 }
 
-  .product__button:hover {
-    background-color: #5eaa2f;
-  }
+.product__button:hover {
+  background-color: #5eaa2f;
+}
 
-  .product__button:active {
-    opacity: 0.6;
-  }
+.product__button:active {
+  opacity: 0.6;
+}

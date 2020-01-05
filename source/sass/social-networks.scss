@@ -37,23 +37,23 @@
   }
 
   &--vk {
-    @media(min-width: $tablet-screen-width) {
+    @media (min-width: $tablet-screen-width) {
       width: 30px;
       height: 16px;
     }
   }
 
   &--instagram {
-    @media(min-width: $tablet-screen-width) {
+    @media (min-width: $tablet-screen-width) {
       width: 23px;
       height: 23px;
     }
   }
 
   &--facebook {
-    @media(min-width: $tablet-screen-width) {
+    @media (min-width: $tablet-screen-width) {
       width: 14px;
-      height: 28px
+      height: 28px;
     }
   }
 }
