@@ -6,7 +6,7 @@
   padding-bottom: 22px;
   background-image: url(../img/index-background-mobile@1x.jpg),
                     linear-gradient(to bottom, #63a73a 0 305px, transparent 305px);
-  
+
   @media (min-width: $tablet-screen-width) {
     // position: relative;
     padding-top: 68px;
@@ -59,7 +59,6 @@
     font-size: 20px;
     color: $dark-black;
     text-align: left;
-    
   }
 }
 
