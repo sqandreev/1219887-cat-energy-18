@@ -15,9 +15,14 @@
   &--form {
     background-color: $primary-color;
   }
+
+  &--catalog {
+    background-color: $primary-color;
+  }
 }
 
 .contacts .wrapper {
+
   @media (min-width: $desktop-screen-width) {
     display: flex;
     align-items: center;
@@ -49,6 +54,14 @@
     width: 570px;
 
     z-index: 1;
+  }
+
+  &--catalog {
+    background-color: $primary-color;
+
+    @media (min-width: $desktop-screen-width) {
+      background-color: $white;
+    }
   }
 }
 
