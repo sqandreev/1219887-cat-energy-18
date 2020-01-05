@@ -104,7 +104,7 @@
       width: 112px;
       height: 228px;
 
-      font-family: "Oswald Regular";
+      font-family: "Oswald Regular", "Arial", sans-serif;
       font-size: 281px;
       color: #f2f2f2;
 
@@ -121,7 +121,7 @@
   padding-left: 80px;
   font-size: 14px;
   line-height: 18px;
-  font-family: Arial;
+  font-family: "Arial";
   min-height: 60px;
 
   @media (min-width: $tablet-screen-width) {
@@ -153,18 +153,18 @@
   }
 
   &--food::before {
-    background-image: url(../img/advantage-leaf@1x.png);
+    background-image: url("../img/advantage-leaf@1x.png");
   }
 
   &--powder::before {
-    background-image: url(../img/advantage-powder@1x.png);
+    background-image: url("../img/advantage-powder@1x.png");
   }
 
   &--function::before {
-    background-image: url(../img/advantage-dining@1x.png);
+    background-image: url("../img/advantage-dining@1x.png");
   }
 
   &--pleasure::before {
-    background-image: url(../img/advantage-clock@1x.png);
+    background-image: url("../img/advantage-clock@1x.png");
   }
 }
