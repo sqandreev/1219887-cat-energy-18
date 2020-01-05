@@ -60,7 +60,7 @@
 
   margin-bottom: 20px;
 
-  @media(min-width: $tablet-screen-width) {
+  @media (min-width: $tablet-screen-width) {
     width: 237px;
     min-height: 228px;
 
@@ -91,24 +91,24 @@
   &::after {
     @media (min-width: $tablet-screen-width) {
       counter-increment: item-number;
-        content: counter(item-number);
+      content: counter(item-number);
 
-        position: absolute;
-        top: -10px;
-        right: 0;
-        z-index: -1;
+      position: absolute;
+      top: -10px;
+      right: 0;
+      z-index: -1;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 112px;
-        height: 228px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 112px;
+      height: 228px;
 
-        font-family: "Oswald Regular";
-        font-size: 281px;
-        color: #f2f2f2;
+      font-family: "Oswald Regular";
+      font-size: 281px;
+      color: #f2f2f2;
 
-        text-align: right;
+      text-align: right;
     }
   }
 }
