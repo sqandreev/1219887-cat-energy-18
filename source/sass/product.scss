@@ -102,7 +102,7 @@
 
   font-size: 16px;
   font-weight: normal;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: "Oswald Regular", "Arial", sans-serif;
   line-height: 20px;
   text-transform: uppercase;
   color: #111111;
@@ -199,7 +199,7 @@
   height: 40px;
 
   font-size: 16px;
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: "Oswald Regular", "Arial", sans-serif;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
@@ -219,4 +219,122 @@
 
 .product__button:active {
   opacity: 0.6;
+}
+
+.product__more {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  border-bottom: 1px solid #ededed;
+
+  @media (min-width: $tablet-screen-width) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 430px;
+    width: 324px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 40px;
+
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    width: 245px;
+  }
+}
+
+.product__more-title {
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: 11px;
+  padding-top: 56px;
+
+  font-weight: normal;
+  font-family: "Oswald Regular", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-top: auto;
+    margin-bottom: 27px;
+    width: 155px;
+    padding-top: 112px;
+
+    font-size: 20px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-top: 90px;
+  }
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: linear-gradient(to right, transparent 14px, #d3d3d3 14px 16px, transparent 16px),
+      linear-gradient(to bottom, transparent 14px, #d3d3d3 14px 16px, transparent 16px);
+
+    transform: translateX(-50%);
+
+    @media (min-width: $tablet-screen-width) {
+      width: 60px;
+      height: 60px;
+
+      background-image: linear-gradient(to right, transparent 29px, #d3d3d3 29px 31px, transparent 31px),
+        linear-gradient(to bottom, transparent 29px, #d3d3d3 29px 31px, transparent 31px);
+    }
+  }
+}
+
+.product__more-description {
+  margin-top: 0;
+  margin-bottom: 22px;
+
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  @media (min-width: $tablet-screen-width) {
+    width: 170px;
+    margin-bottom: auto;
+
+    font-size: 16px;
+  }
+}
+
+.product__more-button {
+  width: 100%;
+  padding: 13px 0;
+
+  font-size: 16px;
+  font-family: "Oswald Regular", "Arial", sans-serif;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+
+  &:hover {
+    background-color: #ebebeb;
+
+    cursor: pointer;
+  }
+
+  &:active {
+    color: #b9b9b9;
+  }
 }
