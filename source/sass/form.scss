@@ -18,10 +18,17 @@ fieldset {
 
 .form__description {
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 
   font-size: 14px;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-bottom: 60px;
+    
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .form__personal {
@@ -39,6 +46,7 @@ fieldset {
 }
 
 .personal {
+  padding-top: 0;
   border: none;
   border-bottom: 1px solid #d2d2d2;
 
@@ -50,9 +58,13 @@ fieldset {
 .form__label {
   display: flex;
   align-items: center;
-  margin-bottom: 14px;
+  margin-bottom: 23px;
 
   cursor: pointer;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   &--contact {
     @media (min-width: $desktop-screen-width) {
@@ -67,6 +79,7 @@ fieldset {
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
+  white-space: nowrap;
 
   &--radio {
     position: relative;
@@ -257,13 +270,11 @@ fieldset {
   margin-left: -40px;
 
   font-size: var(--legend-font-size);
+  line-height: 1;
   text-transform: none;
 
   background-color: $white;
 
-  --legend-font-size: 36px;
-
-  line-height: 1;
 
   &::before {
     --line-size: 3px;
