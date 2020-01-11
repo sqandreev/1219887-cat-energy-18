@@ -48,6 +48,7 @@ body {
 @import "main-nav.scss";
 @import "promo.scss";
 @import "result.scss";
+@import "extra-products";
 @import "social-networks.scss";
 @import "catalog.scss";
 @import "page-content";
@@ -61,6 +62,8 @@ body {
 @import "transformation.scss";
 @import "logo.scss";
 @import "authors.scss";
+@import "gift.scss";
+@import "goods.scss";
 
 .visually-hidden {
   position: absolute;
