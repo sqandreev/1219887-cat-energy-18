@@ -338,3 +338,10 @@
     color: #b9b9b9;
   }
 }
+
+.product__info {
+  @media (min-width: $desktop-screen-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

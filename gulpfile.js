@@ -10,7 +10,7 @@ const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
 const csso = require("gulp-csso");
 const imagemin = require("gulp-imagemin");
-const webp = require("gulp-webp");
+const webp = require("imagemin-webp");
 const svgstore = require("gulp-svgstore");
 const posthtml = require("gulp-posthtml");
 const include = require("posthtml-include");
@@ -55,7 +55,11 @@ gulp.task("images", function () {
 
 gulp.task("webp", function () {
   return gulp.src("source/img/*.{png,jpg}")
-    .pipe(webp({quality: 90}))
+    imagemin({
+      use: [
+        imageminWebp({quality: 50})
+      ]
+    })
     .pipe(gulp.dest("build/img"));
 });
 
