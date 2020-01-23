@@ -2,7 +2,7 @@
  * product
  */
 
-.product {
+ .product {
   position: relative;
 
   display: flex;
@@ -344,4 +344,46 @@
     display: flex;
     justify-content: space-between;
   }
+}
+
+.product__legend {
+  width: 265px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 32px;
+  margin-left: -40px;
+
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: none;
+
+  background-color: $white;
+
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    height: 3px;
+    margin-top: calc(1em / 2 + 3px);
+
+    background-color: $green;
+  }
+
+  @media (min-width: $tablet-screen-width) {
+    width: auto;
+    display: inline-block;
+
+    font-size: 36px;
+  }
+}
+
+.product__contact {
+  // padding-top: 30px;
+  padding-bottom: 30px;
 }
