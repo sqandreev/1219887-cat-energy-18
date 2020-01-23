@@ -4,6 +4,7 @@
   "private": true,
   "description": "Личный проект «Кэт энерджи» от HTML Academy",
   "dependencies": {
+    "gulp-ext-replace": "^0.3.0",
     "gulp-util": "^3.0.8",
     "imagemin-webp": "^5.1.0",
     "normalize.css": "^8.0.1"

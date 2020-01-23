@@ -11,6 +11,7 @@ const autoprefixer = require("autoprefixer");
 const csso = require("gulp-csso");
 const imagemin = require("gulp-imagemin");
 const webp = require("imagemin-webp");
+const extReplace = require("gulp-ext-replace");
 const svgstore = require("gulp-svgstore");
 const posthtml = require("gulp-posthtml");
 const include = require("posthtml-include");
@@ -53,14 +54,18 @@ gulp.task("images", function () {
     .pipe(gulp.dest("build/img"));
 });
 
-gulp.task("webp", function () {
-  return gulp.src("source/img/*.{png,jpg}")
-    imagemin({
-      use: [
-        imageminWebp({quality: 50})
-      ]
-    })
-    .pipe(gulp.dest("build/img"));
+gulp.task("webp", function() {
+  let src = "source/img/**/*.png";
+  let dest = "build/img";
+
+  return gulp.src(src)
+    .pipe(imagemin([
+      webp({
+        quality: 75
+      })
+    ]))
+    .pipe(extReplace(".webp"))
+    .pipe(gulp.dest(dest));
 });
 
 gulp.task("server", function () {
