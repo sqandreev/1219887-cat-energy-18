@@ -1,7 +1,7 @@
 ;(function() {
   "use strict";
 
-  // variables
+  // Variables
   
   var filterRangeButton = document.querySelector(".transformation__filter-button");
   var filterStateBefore = document.querySelector(".transformation__filter-state--before");
