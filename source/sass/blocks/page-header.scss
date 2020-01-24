@@ -21,6 +21,13 @@
   }
 
   &--static {
+    margin-bottom: 32px;
+    
+    @media (min-width: $tablet-screen-width) {
+      padding-bottom: 0;
+      margin-bottom: 64px;
+    }
+
     @media (min-width: $desktop-screen-width) {
       position: static;
 
@@ -29,7 +36,6 @@
     }
   }
 }
-
 
 .page-header .wrapper {
   display: flex;
