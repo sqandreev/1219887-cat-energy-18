@@ -2,7 +2,7 @@
  * product
  */
 
- .product {
+.product {
   position: relative;
 
   display: flex;
@@ -350,7 +350,7 @@
   width: 265px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   margin-left: -40px;
 
   font-size: 24px;
@@ -378,6 +378,7 @@
   @media (min-width: $tablet-screen-width) {
     width: auto;
     display: inline-block;
+    margin-bottom: 75px;
 
     font-size: 36px;
   }
