@@ -1,0 +1,130 @@
+.contacts {
+  position: relative;
+
+  padding-bottom: 363px;
+
+  @media (min-width: $tablet-screen-width) {
+    padding-bottom: 397px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-bottom: 0;
+    height: 400px;
+  }
+
+  &--form {
+    background-color: $primary-color;
+  }
+
+  &--catalog {
+    background-color: $primary-color;
+  }
+}
+
+.contacts .wrapper {
+  @media (min-width: $desktop-screen-width) {
+    display: flex;
+    align-items: center;
+    height: inherit;
+  }
+}
+
+.contacts__section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  background-color: #ffffff;
+
+  @media (min-width: $tablet-screen-width) {
+    padding-top: 69px;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-bottom: 62px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    box-sizing: border-box;
+    padding-top: 66px;
+    padding-bottom: 60px;
+    padding-right: 76px;
+    padding-left: 76px;
+    width: 570px;
+
+    z-index: 1;
+  }
+
+  &--catalog {
+    background-color: $primary-color;
+
+    @media (min-width: $desktop-screen-width) {
+      background-color: $white;
+    }
+  }
+}
+
+.contacts__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 125px;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  color: $black;
+
+  @media (min-width: $tablet-screen-width) {
+    width: 150px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+.contacts__address {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 135px;
+
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
+  line-height: 20px;
+  color: $black;
+
+  @media (min-width: $tablet-screen-width) {
+    width: 155px;
+
+    font-size: 16px;
+    text-align: right;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    text-align: left;
+  }
+}
+
+.contacts__span {
+  @media (min-width: $tablet-screen-width) {
+    display: block;
+
+    margin-bottom: 30px;
+  }
+}
+
+.contacts__map {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 363px;
+
+  @media (min-width: $tablet-screen-width) {
+    height: 397px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    height: 400px;
+  }
+}

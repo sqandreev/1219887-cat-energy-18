@@ -29,3 +29,15 @@
     margin-bottom: 155px;
   }
 }
+
+.page-content__wrapper {
+  margin-bottom: 42px;
+  
+  @media (min-width: $tablet-screen-width) {
+    margin-bottom: 129px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-bottom: 135px;
+  }
+}
