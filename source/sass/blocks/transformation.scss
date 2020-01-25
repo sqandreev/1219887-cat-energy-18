@@ -33,7 +33,7 @@
 .transformation__wrapper {
   position: relative;
 
-  padding-top: 14px;
+  padding-top: 33px;
   padding-bottom: 38px;
 
   @media (min-width: $tablet-screen-width) {
@@ -50,7 +50,7 @@
 
 .transformation__title {
   margin-top: 0;
-  margin-bottom: 22px;
+  margin-bottom: 33px;
 
   color: #111111;
   font-weight: normal;
@@ -73,7 +73,7 @@
 
 .transformation__description {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 25px;
   width: 268px;
 
   color: #444444;
@@ -95,7 +95,7 @@
 }
 
 .transformation__info {
-  margin-bottom: 31px;
+  margin-bottom: 47px;
 
   @media (min-width: $tablet-screen-width) {
     display: flex;
@@ -238,8 +238,8 @@
 
   @media (min-width: $desktop-screen-width) {
     position: absolute;
-    top: -185px;
-    right: 41px;
+    top: -192px;
+    right: 0;
     bottom: 0;
 
     width: 610px;
