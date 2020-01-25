@@ -1,8 +1,8 @@
 .form {
-  padding-top: 30px;
+  // padding-top: 30px;
 }
 
-fieldset {
+.form__personal {
   margin: 0;
   padding: 0;
   padding-top: 30px;
@@ -10,7 +10,7 @@ fieldset {
 
 .form__title {
   margin-top: 0;
-  margin-bottom: 36px;
+  margin-bottom: 23px;
 
   font-size: 36px;
   line-height: 60px;
@@ -22,7 +22,7 @@ fieldset {
 
 .form__description {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 33px;
 
   font-size: 14px;
   text-transform: uppercase;
@@ -38,7 +38,7 @@ fieldset {
 .form__personal {
   width: 280px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 13px;
 
   @media (min-width: $tablet-screen-width) {
     width: 630px;
@@ -62,7 +62,7 @@ fieldset {
 .form__label {
   display: flex;
   align-items: center;
-  margin-bottom: 23px;
+  margin-bottom: 9px;
 
   cursor: pointer;
 
@@ -88,7 +88,7 @@ fieldset {
 }
 
 .form__text {
-  margin-right: 15px;
+  margin-right: 13px;
 
   font-size: 16px;
   line-height: 18px;
