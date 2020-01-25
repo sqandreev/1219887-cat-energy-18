@@ -2,7 +2,7 @@
   background-repeat: no-repeat;
   background-size: 320px 305px, auto;
   background-position: top center;
-  padding-top: 27px;
+  padding-top: 20px;
   padding-bottom: 22px;
   background-image: url("../img/index-background-mobile@1x.jpg"),
     linear-gradient(to bottom, #63a73a 0 305px, transparent 305px);
@@ -15,7 +15,7 @@
 
   @media (min-width: $tablet-screen-width) {
     // position: relative;
-    padding-top: 68px;
+    padding-top: 28px;
     padding-bottom: 525px;
     background-image: none;
   }
@@ -44,8 +44,9 @@
 
 .promo__title {
   margin-top: 0;
-  margin-bottom: 22px;
+  margin-bottom: 17px;
   font-size: 36px;
+  line-height: 42px;
   color: $white;
   text-align: center;
   font-weight: normal;
@@ -61,7 +62,7 @@
 
 .promo__description {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 26px;
   font-size: 14px;
   color: $white;
   text-align: center;
@@ -100,10 +101,12 @@
 
 .promo__link {
   display: block;
-  padding-top: 14px;
+  padding-top: 9px;
   padding-bottom: 12px;
   background-color: $green;
   color: $white;
+  font-size: 14px;
+  line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;

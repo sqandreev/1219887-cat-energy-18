@@ -75,9 +75,11 @@
   color: $black;
 
   @media (min-width: $tablet-screen-width) {
-    width: 150px;
+    width: 155px;
+
     font-size: 20px;
     line-height: 25px;
+    text-transform: uppercase;
   }
 }
 
@@ -107,7 +109,7 @@
   @media (min-width: $tablet-screen-width) {
     display: block;
 
-    margin-bottom: 30px;
+    margin-bottom: 18px;
   }
 }
 

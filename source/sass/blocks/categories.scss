@@ -14,7 +14,7 @@
   width: 280px;
   background-color: $primary-color;
   margin-bottom: 20px;
-  padding: 40px 19px 22px 21px;
+  padding: 22px 19px 22px 21px;
 
   box-sizing: border-box;
 
@@ -24,13 +24,13 @@
 
   @media (min-width: $tablet-screen-width) {
     width: auto;
-    padding: 78px 62px 63px 53px;
+    padding: 75px 62px 63px 53px;
     margin-bottom: 30px;
   }
 
   @media (min-width: $desktop-screen-width) {
     width: 570px;
-    padding: 47px 56px 63px 51px;
+    padding: 100px 56px 63px 51px;
     margin-bottom: 0;
   }
 }
@@ -41,15 +41,15 @@
   align-items: center;
   font-size: 24px;
   margin-top: 0;
-  margin-bottom: 42px;
+  margin-bottom: 23px;
   text-transform: uppercase;
   font-weight: normal;
-  padding-left: 78px;
+  padding-left: 69px;
   min-height: 50px;
 
   @media (min-width: $tablet-screen-width) {
     font-size: 36px;
-    margin-bottom: 27px;
+    margin-bottom: 19px;
     padding-left: 0;
   }
 
@@ -152,7 +152,7 @@
 .categories__description {
   margin-top: 0;
   padding-bottom: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 13px;
   font-size: 14px;
   line-height: 18px;
   width: 240px;
@@ -160,15 +160,16 @@
   font-family: "Arial", sans-serif;
 
   @media (min-width: $tablet-screen-width) {
+    width: 370px;
     font-size: 16px;
     line-height: 24px;
     border-bottom: 0;
     padding-bottom: 0;
-    margin-bottom: 48px;
+    margin-bottom: 25px;
   }
 
   @media (min-width: $desktop-screen-width) {
-    width: 443px;
+    width: 460px;
   }
 }
 
@@ -178,7 +179,7 @@
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  padding-right: 46px;
+  padding-right: 28px;
 
   @media (min-width: $tablet-screen-width) {
     font-size: 20px;
