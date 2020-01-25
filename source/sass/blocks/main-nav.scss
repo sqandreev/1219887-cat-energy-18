@@ -103,6 +103,10 @@
       margin-right: 0;
     }
   }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-right: 43px;
+  }
 }
 
 .main-nav__link {
@@ -111,7 +115,7 @@
 
     display: block;
     padding-top: 14px;
-    padding-bottom: 14px;
+    padding-bottom: 9px;
 
     text-decoration: none;
     color: #111111;

@@ -32,13 +32,13 @@
 .contacts__section {
   display: flex;
   justify-content: space-between;
-  padding-top: 27px;
+  padding-top: 25px;
   padding-bottom: 27px;
 
   background-color: #ffffff;
 
   @media (min-width: $tablet-screen-width) {
-    padding-top: 69px;
+    padding-top: 63px;
     padding-left: 42px;
     padding-right: 42px;
     padding-bottom: 62px;
@@ -72,6 +72,7 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: normal;
+  text-transform: uppercase;
   color: $black;
 
   @media (min-width: $tablet-screen-width) {
@@ -86,7 +87,7 @@
 .contacts__address {
   margin-top: 0;
   margin-bottom: 0;
-  width: 135px;
+  width: 139px;
 
   font-size: 14px;
   font-family: "Arial", sans-serif;

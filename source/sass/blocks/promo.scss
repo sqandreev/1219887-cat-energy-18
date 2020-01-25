@@ -43,13 +43,18 @@ linear-gradient(to right, transparent 0 50%, #63a73a 50% 100%);
 }
 
 .promo__content {
-  margin-left: 64px;
+  margin-bottom: 46px;
+  margin-left: 87px;
+
+  @media (min-width: $desktop-screen-width) {
+    margin-left: 80px;
+  }
 }
 
 
 .promo__title {
   margin-top: 0;
-  margin-bottom: 17px;
+  margin-bottom: 36px;
   font-size: 36px;
   line-height: 42px;
   color: $white;
@@ -67,7 +72,7 @@ linear-gradient(to right, transparent 0 50%, #63a73a 50% 100%);
 
 .promo__description {
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: 0;
   font-size: 14px;
   color: $white;
   text-align: center;
@@ -86,7 +91,7 @@ linear-gradient(to right, transparent 0 50%, #63a73a 50% 100%);
 
   @media (min-width: $tablet-screen-width) {
     position: absolute;
-    left: 0;
+    left: 29px;
     top: 200px;
     z-index: -1;
     width: 709px;
@@ -94,8 +99,8 @@ linear-gradient(to right, transparent 0 50%, #63a73a 50% 100%);
   }
 
   @media (min-width: $desktop-screen-width) {
-    top: auto;
-    left: 50%;
+    top: 165px;
+    left: 765px;
     z-index: 0;
     width: 552px;
     height: 499px;
@@ -126,7 +131,18 @@ linear-gradient(to right, transparent 0 50%, #63a73a 50% 100%);
 
   @media (min-width: $tablet-screen-width) {
     display: inline-block;
-    padding-left: 30px;
+    padding-top: 15px;
     padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    margin-left: 84px;
+
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding: 15px 28px;
+    margin-left: 80px;
   }
 }

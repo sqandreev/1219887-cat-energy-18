@@ -24,14 +24,18 @@
 
   @media (min-width: $tablet-screen-width) {
     width: auto;
-    padding: 75px 62px 63px 53px;
+    padding: 47px 62px 63px 53px;
     margin-bottom: 30px;
   }
 
   @media (min-width: $desktop-screen-width) {
     width: 570px;
-    padding: 100px 56px 63px 51px;
+    padding: 47px 56px 63px 51px;
     margin-bottom: 0;
+  }
+
+  &--mass-gain {
+    padding: 62px 60px 53px 54px;
   }
 }
 
@@ -41,7 +45,7 @@
   align-items: center;
   font-size: 24px;
   margin-top: 0;
-  margin-bottom: 23px;
+  margin-bottom: 24px;
   text-transform: uppercase;
   font-weight: normal;
   padding-left: 69px;
@@ -49,13 +53,13 @@
 
   @media (min-width: $tablet-screen-width) {
     font-size: 36px;
-    margin-bottom: 19px;
+    margin-bottom: 17px;
     padding-left: 0;
   }
 
   @media (min-width: $desktop-screen-width) {
-    margin-bottom: 45px;
-    padding-left: 165px;
+    margin-bottom: 43px;
+    padding-left: 163px;
     min-height: 100px;
   }
 
@@ -74,7 +78,7 @@
       width: 200px;
       height: 200px;
       left: auto;
-      top: 0;
+      top: 23px;
       right: 0;
     }
 
@@ -110,7 +114,7 @@
     @media (min-width: $tablet-screen-width) {
       width: 140px;
       height: 194px;
-      top: 86px;
+      top: 109px;
       right: 30px;
       left: auto;
     }
@@ -134,8 +138,8 @@
     @media (min-width: $tablet-screen-width) {
       width: 268px;
       height: 112px;
-      top: 110px;
-      right: -32px;
+      top: 123px;
+      right: -31px;
       left: auto;
     }
 
@@ -165,11 +169,18 @@
     line-height: 24px;
     border-bottom: 0;
     padding-bottom: 0;
-    margin-bottom: 25px;
+    margin-bottom: 51px;
   }
 
   @media (min-width: $desktop-screen-width) {
     width: 460px;
+  }
+
+  &--mass-gain {
+    @media (min-width: $tablet-screen-width) {
+      width: 340px;
+      margin-bottom: 51px;
+    }
   }
 }
 
@@ -182,7 +193,13 @@
   padding-right: 28px;
 
   @media (min-width: $tablet-screen-width) {
+    padding-right: 48px;
+
     font-size: 20px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-right: 50px;
   }
 
   &:active {
