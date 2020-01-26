@@ -1,6 +1,6 @@
 .table {
-  padding-top: 14px;
-  padding-bottom: 17px;
+  padding-top: 8px;
+  padding-bottom: 0;
   width: 100%;
 
   border-bottom: 1px solid #cdcdcd;
@@ -10,8 +10,10 @@
   }
 
   @media (min-width: $tablet-screen-width) {
-    padding-top: 27px;
-    padding-bottom: 27px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-left: 39px;
+    width: 633px;
   }
   
   @media (min-width: $desktop-screen-width) {
@@ -30,7 +32,7 @@
 
 .table__row {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 9px;
 
   &:last-child {
     margin-bottom: 14px;
@@ -43,7 +45,7 @@
   @media (min-width: $tablet-screen-width) {
     display: inline-flex;
     width: 50%;
-    margin-bottom: 23px;
+    margin-bottom: 20px;
   }
 
   @media (min-width: $desktop-screen-width) {
@@ -154,9 +156,9 @@
 
 .table__link {
   display: block;
-  width: 100%;
   padding-top: 13px;
   padding-bottom: 13px;
+  width: 100%;
 
   font-size: 16px;
   text-align: center;
@@ -177,7 +179,7 @@
     color: rgba(255, 255, 255, 0.3);
   }
 
-  @media (min-width: $desktop-screen-width) {
+  @media (min-width: $tablet-screen-width) {
     padding-top: 8px;
     padding-bottom: 8px;
   }

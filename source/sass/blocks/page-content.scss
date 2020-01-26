@@ -20,24 +20,24 @@
   line-height: 60px;
 
   @media (min-width: $tablet-screen-width) {
-    margin-bottom: 167px;
+    margin-bottom: 164px;
 
     font-size: 60px;
   }
 
   @media (min-width: $desktop-screen-width) {
-    margin-bottom: 155px;
+    margin-bottom: 166px;
   }
 }
 
 .page-content__wrapper {
-  margin-bottom: 42px;
+  margin-bottom: 23px;
   
   @media (min-width: $tablet-screen-width) {
-    margin-bottom: 129px;
+    margin-bottom: 72px;
   }
 
   @media (min-width: $desktop-screen-width) {
-    margin-bottom: 135px;
+    margin-bottom: 80px;
   }
 }
