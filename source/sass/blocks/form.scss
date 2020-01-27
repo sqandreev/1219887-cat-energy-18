@@ -10,7 +10,7 @@
 
 .form__title {
   margin-top: 0;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 
   font-size: 36px;
   line-height: 60px;
@@ -22,7 +22,7 @@
 
 .form__description {
   margin-top: 0;
-  margin-bottom: 33px;
+  margin-bottom: 29px;
 
   font-size: 14px;
   text-transform: uppercase;
@@ -62,12 +62,12 @@
 .form__label {
   display: flex;
   align-items: center;
-  margin-bottom: 9px;
+  margin-bottom: 13px;
 
   cursor: pointer;
 
-  &:last-child {
-    // margin-bottom: 34px;
+  &:last-of-type {
+    margin-bottom: 34px;
   }
 
   &--contact {
@@ -88,7 +88,7 @@
 }
 
 .form__text {
-  margin-right: 13px;
+  margin-right: 9px;
 
   font-size: 16px;
   line-height: 18px;
@@ -100,7 +100,7 @@
 
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 46px;
     height: 30px;
   }
 
@@ -165,14 +165,14 @@
     background-image: url("../img/icon-mail.svg");
     background-repeat: no-repeat;
     background-size: 17px;
-    background-position: right 7px center;
+    background-position: right 40px center;
   }
 
   &--tel {
     background-image: url("../img/icon-phone.svg");
     background-repeat: no-repeat;
     background-size: 17px;
-    background-position: right 7px center;
+    background-position: right 40px center;
   }
 
   &--radio:checked ~ .form__text::before {
@@ -212,6 +212,7 @@
 .form__programms {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 0;
 
   box-sizing: border-box;
 
@@ -234,7 +235,7 @@
 
 .form__radio {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 12px;
 
   &:last-child {
     margin-bottom: 0;
@@ -247,9 +248,9 @@
 
 .form__legend {
   width: 265px;
-  padding-left: 40px;
+  padding-left: 39px;
   padding-right: 40px;
-  margin-bottom: 32px;
+  margin-bottom: 27px
   margin-left: -40px;
 
   font-size: 24px;
@@ -259,6 +260,9 @@
 
   background-color: $white;
 
+  &--extra {
+    padding-left: 27px;
+  }
 
   &::before {
     content: "";
@@ -284,7 +288,8 @@
 
 .form__contact {
   // padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
+  padding-left: 0;
 }
 
 .contact {
@@ -307,6 +312,7 @@
 // extra
 
 .form__extra {
+  padding-left: 12px;
   padding-bottom: 70px;
 }
 
@@ -329,7 +335,7 @@
 
 .form__link {
   display: block;
-  padding: 20px 80px 20px 80px;
+  padding: 10px 80px 10px 80px;
   margin-bottom: 25px;
 
   font-size: 16px;
