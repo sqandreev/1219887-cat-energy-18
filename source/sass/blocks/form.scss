@@ -1,6 +1,4 @@
-.form {
-  // padding-top: 30px;
-}
+
 
 .form__personal {
   margin: 0;
@@ -62,12 +60,12 @@
 .form__label {
   display: flex;
   align-items: center;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
 
   cursor: pointer;
 
   &:last-of-type {
-    margin-bottom: 34px;
+    margin-bottom: 7px;
   }
 
   &--contact {
@@ -76,6 +74,10 @@
 
       margin-bottom: 0;
     }
+  }
+
+  &--email {
+    margin-bottom: 8px;
   }
 }
 
@@ -123,7 +125,7 @@
 
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 45px;
     height: 30px;
 
     @media (min-width: $tablet-screen-width) {
@@ -213,6 +215,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 0;
+  margin-bottom: 29px;
 
   box-sizing: border-box;
 
@@ -250,7 +253,7 @@
   width: 265px;
   padding-left: 39px;
   padding-right: 40px;
-  margin-bottom: 27px
+  margin-bottom: 28px;
   margin-left: -40px;
 
   font-size: 24px;
@@ -287,7 +290,6 @@
 }
 
 .form__contact {
-  // padding-top: 30px;
   padding-bottom: 0px;
   padding-left: 0;
 }
@@ -295,8 +297,6 @@
 .contact {
   border: none;
 }
-
-// comment
 
 .comment {
   border: none;
@@ -312,8 +312,8 @@
 // extra
 
 .form__extra {
-  padding-left: 12px;
-  padding-bottom: 70px;
+  padding-left: 0;
+  padding-bottom: 50px;
 }
 
 .extra {
