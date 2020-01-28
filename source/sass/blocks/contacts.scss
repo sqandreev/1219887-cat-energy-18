@@ -22,6 +22,8 @@
 }
 
 .contacts .wrapper {
+  background-color: $primary-color;
+
   @media (min-width: $desktop-screen-width) {
     display: flex;
     align-items: center;
@@ -34,8 +36,6 @@
   justify-content: space-between;
   padding-top: 27px;
   padding-bottom: 27px;
-
-  background-color: #ffffff;
 
   @media (min-width: $tablet-screen-width) {
     padding-top: 63px;
