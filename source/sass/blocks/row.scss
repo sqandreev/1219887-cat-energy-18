@@ -15,7 +15,7 @@
 
     @media (min-width: $desktop-screen-width) {
       flex-wrap: nowrap;
-      margin-bottom: 61px;
+      margin-bottom: 65px;
     }
   }
 
@@ -24,6 +24,10 @@
 
     @media (min-width: $tablet-screen-width) {
       margin-bottom: 75px;
+    }
+
+    @media (min-width: $desktop-screen-width) {
+      margin-bottom: 0;
     }
   }
 }

@@ -33,13 +33,19 @@
     font-size: 20px;
     line-height: 30px;
   }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-left: 0;
+  }
 }
 
 .form__main {
-  padding-left: 0;
-
   @media (min-width: $tablet-screen-width) {
     padding-left: 41px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-left: 0;
   }
 }
 
@@ -60,6 +66,7 @@
 
 .personal {
   padding-top: 0;
+  padding-bottom: 62px;
   border: none;
   border-bottom: 1px solid #d2d2d2;
 
@@ -68,7 +75,7 @@
   }
 
   @media (min-width: $desktop-screen-width) {
-    margin-right: 80px;
+    margin-right: 138px;
   }
 }
 
@@ -84,7 +91,7 @@
   }
 
   @media (min-width: $desktop-screen-width) {
-    margin-bottom: 5px;
+    margin-bottom: 21px;
   }
 
   &:last-of-type {
@@ -137,7 +144,11 @@
   @media (min-width: $tablet-screen-width) {
     font-size: 20px;
     line-height: 20px;
-    margin-right: 25px;
+    margin-right: 16px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-right: 35px;
   }
 
   &--radio {
@@ -186,6 +197,10 @@
       width: 230px;
       padding-left: 55px;
       height: 40px;
+    }
+
+    @media (min-width: $desktop-screen-width) {
+      padding-left: 58px;
     }
   }
 
@@ -346,6 +361,10 @@
 
   &--comment {
     margin-bottom: 40px;
+
+    @media (min-width: $desktop-screen-width) {
+      margin-top: 52px;
+    }
   }
 
   &::before {
@@ -366,14 +385,29 @@
     width: auto;
     display: inline-block;
     margin-top: 60px;
-    margin-bottom: 73px;
+    margin-bottom: 64px;
 
     font-size: 36px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-top: 52px;
+    margin-bottom: 76px;
   }
 
   &--extra {
     @media (min-width: $tablet-screen-width) {
       margin-bottom: 51px;
+    }
+
+    @media (min-width: $desktop-screen-width) {
+      margin-bottom: 55px;
+    }
+  }
+
+  &--author {
+    @media (min-width: $desktop-screen-width) {
+      margin-bottom: 65px;
     }
   }
 }
@@ -404,9 +438,16 @@
   height: 125px;
   resize: none;
   border: 1px solid #e6e6e6;
+  box-sizing: border-box;
 
   @media (min-width: $tablet-screen-width) {
     height: 150px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding: 14px 17px;
+    width: 100%;
+    height: 175px;
   }
 }
 
@@ -418,6 +459,10 @@
 
   @media (min-width: $tablet-screen-width) {
     padding-bottom: 74px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-bottom: 79px;
   }
 }
 
@@ -463,8 +508,9 @@
   @media (min-width: $desktop-screen-width) {
     display: flex;
     justify-content: center;
-    width: 570px;
+    width: 567px;
     margin-bottom: 0;
+    margin-right: 81px;
 
     box-sizing: border-box;
   }
