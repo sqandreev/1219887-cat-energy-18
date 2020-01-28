@@ -18,7 +18,8 @@
   }
 
   @media (min-width: $desktop-screen-width) {
-    padding-bottom: 208px;
+    padding-top: 59px;
+    padding-bottom: 217px;
   }
 }
 
@@ -188,5 +189,13 @@
            (min-resolution: 1.25dppx) {
       background-image: url("../img/advantage-clock@2x.png");
     }
+  }
+}
+
+.advantages__break {
+  display: none;
+
+  @media (min-width: $desktop-screen-width) {
+    display: block;
   }
 }

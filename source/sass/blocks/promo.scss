@@ -16,7 +16,7 @@
   @media (min-width: $tablet-screen-width) {
     // position: relative;
     padding-top: 28px;
-    padding-bottom: 525px;
+    padding-bottom: 506px;
     background-image: none;
   }
 
@@ -47,6 +47,8 @@ linear-gradient(to right, transparent 0 50%, #63a73a 50% 100%);
 
   @media (min-width: $tablet-screen-width) {
     margin-right: 87px;
+    margin-left: 88px;
+    margin-bottom: 45px;
   }
 
   @media (min-width: $desktop-screen-width) {
@@ -70,6 +72,7 @@ linear-gradient(to right, transparent 0 50%, #63a73a 50% 100%);
     width: 427px;
     text-align: left;
     line-height: 60px;
+    margin-bottom: 37px;
   }
 }
 
@@ -134,11 +137,8 @@ linear-gradient(to right, transparent 0 50%, #63a73a 50% 100%);
 
   @media (min-width: $tablet-screen-width) {
     display: inline-block;
-    padding-top: 15px;
-    padding-right: 30px;
-    padding-bottom: 14px;
-    padding-left: 30px;
-    margin-left: 84px;
+    padding: 13px 26px 16px 26px;
+    margin-left: 89px;
 
     font-size: 20px;
     line-height: 20px;
