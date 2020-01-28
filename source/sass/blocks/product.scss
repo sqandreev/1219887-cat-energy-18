@@ -7,9 +7,13 @@
 
   display: flex;
   margin: 0;
-  padding-bottom: 60px;
+  padding-bottom: 58px;
 
   border-bottom: 1px solid #ededed;
+}
+
+.product:first-child {
+  border-top: 1px solid #ededed;
 }
 
 @media (min-width: 768px) { /* tablet */
@@ -43,13 +47,19 @@
   }
 }
 
+.product--big {
+  padding-bottom: 61px;
+
+  @media (min-width: $tablet-screen-width) {
+    padding-bottom: 0;
+  }
+}
+
 .product__image {
   width: 140px;
   height: 144px;
-}
 
-@media (min-width: 768px) { /* tablet */
-  .product__image {
+  @media (min-width: $tablet-screen-width) { /* tablet */
     position: absolute;
     left: 50%;
 
@@ -57,19 +67,20 @@
     height: 174px;
 
     transform: translateX(-50%);
-  }
-
-  .product__image--small {
-    top: -47px;
-  }
-
-  .product__image--big {
-    top: -82px;
-    height: 208px;
+  
+    &--small {
+      top: -47px;
+    }
+  
+    &--big {
+      top: -82px;
+      height: 208px;
+    }
   }
 }
 
-@media (min-width: 1300px) { /* desktop */
+
+@media (min-width: $desktop-screen-width) { /* desktop */
   .product__image {
     width: 245px;
     height: 174px;
@@ -81,7 +92,7 @@
 }
 
 .product__content {
-  padding-top: 25px;
+  padding-top: 21px;
   width: 140px;
 
   // &--chicken-small {
@@ -141,8 +152,8 @@
 }
 
 .product__caption {
-  width: 72px;
-  margin-bottom: 19px;
+  width: 74px;
+  margin-bottom: 14px;
 
   text-align: left;
 }
@@ -157,7 +168,7 @@
 
 .product__table-row {
   display: flex;
-  margin-bottom: 7px;
+  margin-bottom: 2px;
 }
 
 @media (min-width: 768px) { /* tablet */
@@ -198,7 +209,7 @@
 .product__button {
   position: absolute;
   right: 0;
-  bottom: 24px;
+  bottom: 23px;
   left: 0;
 
   display: flex;
@@ -230,7 +241,7 @@
 }
 
 .product__more {
-  padding-top: 25px;
+  padding-top: 30px;
   padding-bottom: 25px;
 
   border-bottom: 1px solid #ededed;
@@ -257,9 +268,9 @@
 .product__more-title {
   position: relative;
 
-  margin-top: 0;
+  margin-top: 4px;
   margin-bottom: 11px;
-  padding-top: 49px;
+  padding-top: 45px;
 
   font-weight: normal;
   font-family: "Oswald Regular", "Arial", sans-serif;
@@ -285,7 +296,7 @@
     content: "";
 
     position: absolute;
-    top: 33px;
+    top: -4px;
     left: 50%;
 
     width: 30px;
@@ -348,7 +359,11 @@
 }
 
 .product__info {
-  margin-bottom: 77px;
+  margin-bottom: 34px;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-bottom: 77px;
+  }
 
   @media (min-width: $desktop-screen-width) {
     display: flex;
@@ -359,9 +374,9 @@
 .product__legend {
   width: 265px;
   margin-top: 0;
-  padding-left: 78px;
+  padding-left: 39px;
   padding-right: 40px;
-  margin-bottom: 35px;
+  margin-bottom: 37px;
   margin-left: -40px;
 
   font-size: 24px;
@@ -387,6 +402,7 @@
   }
 
   @media (min-width: $tablet-screen-width) {
+    padding-left: 78px;
     width: auto;
     display: inline-block;
     margin-bottom: 75px;
@@ -407,5 +423,9 @@
 }
 
 .product__container {
-  margin-bottom: 37px;
+  margin-bottom: 10px;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-bottom: 37px;
+  }
 }

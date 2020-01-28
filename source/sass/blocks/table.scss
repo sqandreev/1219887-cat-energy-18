@@ -35,7 +35,7 @@
   margin-bottom: 9px;
 
   &:last-child {
-    margin-bottom: 14px;
+    margin-bottom: 19px;
 
     @media (min-width: $desktop-screen-width) {
       margin-bottom: 0;
@@ -69,6 +69,12 @@
   }
 
   &--content {
+    margin-bottom: 14px;
+
+    @media (min-width: $tablet-screen-width) {
+      margin-bottom: 0;
+    }
+
     @media (min-width: $desktop-screen-width) {
       width: 325px;
     }
@@ -156,8 +162,8 @@
 
 .table__link {
   display: block;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   width: 100%;
 
   font-size: 16px;
