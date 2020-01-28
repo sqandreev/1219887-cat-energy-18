@@ -13,7 +13,7 @@
   line-height: 60px;
 
   @media (min-width: $tablet-screen-width) {
-    margin-bottom: 42px;
+    margin-bottom: 55px;
 
     font-size: 60px;
   }
@@ -28,7 +28,7 @@
 
   @media (min-width: $tablet-screen-width) {
     padding-left: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 64px;
     
     font-size: 20px;
     line-height: 30px;
@@ -50,7 +50,7 @@
 
   @media (min-width: $tablet-screen-width) {
     width: 630px;
-    padding-bottom: 58px;
+    padding-bottom: 66px;
   }
 
   @media (min-width: $desktop-screen-width) {
@@ -80,7 +80,7 @@
   cursor: pointer;
 
   @media (min-width: $tablet-screen-width) {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
   }
 
   @media (min-width: $desktop-screen-width) {
@@ -99,8 +99,18 @@
     }
   }
 
+  &--checkbox {
+    @media (min-width: $tablet-screen-width) {
+      margin-bottom: 33px;
+    }
+  }
+
   &--email {
     margin-bottom: 13px;
+
+    @media (min-width: $tablet-screen-width) {
+      margin-bottom: 18px;
+    }
   }
 }
 
@@ -127,6 +137,7 @@
   @media (min-width: $tablet-screen-width) {
     font-size: 20px;
     line-height: 20px;
+    margin-right: 25px;
   }
 
   &--radio {
@@ -136,6 +147,10 @@
     align-items: center;
     padding-left: 44px;
     height: 30px;
+
+    @media (min-width: $tablet-screen-width) {
+      padding-left: 60px;
+    }
   }
 
   &--radio::before {
@@ -151,6 +166,12 @@
     border-radius: 50%;
     border: 1px solid #d2d2d2;
     box-sizing: border-box;
+
+    @media (min-width: $tablet-screen-width) {
+      top: -4px;
+      width: 40px;
+      height: 40px;
+    }
   }
 
   &--check {
@@ -163,6 +184,8 @@
 
     @media (min-width: $tablet-screen-width) {
       width: 230px;
+      padding-left: 55px;
+      height: 40px;
     }
   }
 
@@ -198,6 +221,7 @@
   border: 1px solid #e6e6e6;
 
   @media (min-width: $tablet-screen-width) {
+    padding: 10px 15px;
     font-size: 20px;
     line-height: 20px;
   }
@@ -223,6 +247,10 @@
 
   &--radio:checked ~ .form__text::before {
     background-image: radial-gradient($green 6px, transparent 6px);
+
+    @media (min-width: $tablet-screen-width) {
+      background-image: radial-gradient($green 9px, transparent 9px);
+    }
   }
 
   &--check:checked ~ .form__text--check::before {
@@ -275,7 +303,7 @@
 
   @media (min-width: $tablet-screen-width) {
     width: 630px;
-    padding: 27px 24px;
+    padding: 27px 24px 31px 24px;
 
     border: 1px solid #d2d2d2;
   }
@@ -286,7 +314,7 @@
   margin-bottom: 12px;
 
   @media (min-width: $tablet-screen-width) {
-    margin-bottom: 19px;
+    margin-bottom: 23px;
   }
 
   &:last-child {
@@ -337,9 +365,16 @@
   @media (min-width: $tablet-screen-width) {
     width: auto;
     display: inline-block;
-    margin-bottom: 48px;
+    margin-top: 60px;
+    margin-bottom: 73px;
 
     font-size: 36px;
+  }
+
+  &--extra {
+    @media (min-width: $tablet-screen-width) {
+      margin-bottom: 51px;
+    }
   }
 }
 
@@ -356,7 +391,7 @@
   margin-bottom: 21px;
 
   @media (min-width: $tablet-screen-width) {
-    margin-bottom: 74px;
+    margin-bottom: 62px;
   }
 }
 
@@ -369,6 +404,10 @@
   height: 125px;
   resize: none;
   border: 1px solid #e6e6e6;
+
+  @media (min-width: $tablet-screen-width) {
+    height: 150px;
+  }
 }
 
 // extra
@@ -378,7 +417,7 @@
   padding-bottom: 31px;
 
   @media (min-width: $tablet-screen-width) {
-    padding-bottom: 66px;
+    padding-bottom: 74px;
   }
 }
 
@@ -414,7 +453,7 @@
   background-color: $green;
 
   @media (min-width: $tablet-screen-width) {
-    padding: 18px 63px 18px 63px;
+    padding: 16px 63px;
     margin-right: 60px;
     margin-bottom: 0;
 
@@ -440,5 +479,6 @@
 
   @media (min-width: $tablet-screen-width) {
     font-size: 16px;
+    margin-left: 0;
   }
 }
