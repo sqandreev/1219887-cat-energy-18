@@ -10,10 +10,11 @@
       justify-content: space-between;
       flex-wrap: wrap;
 
-      margin-bottom: 55px;
+      margin-bottom: 45px;
     }
 
     @media (min-width: $desktop-screen-width) {
+      flex-wrap: nowrap;
       margin-bottom: 61px;
     }
   }

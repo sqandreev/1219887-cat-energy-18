@@ -13,7 +13,9 @@
   font-size: 36px;
   line-height: 60px;
 
-  @media (min-width: $desktop-screen-width) {
+  @media (min-width: $tablet-screen-width) {
+    margin-bottom: 42px;
+
     font-size: 60px;
   }
 }
@@ -26,11 +28,16 @@
   text-transform: uppercase;
 
   @media (min-width: $tablet-screen-width) {
+    padding-left: 40px;
     margin-bottom: 60px;
     
     font-size: 20px;
     line-height: 30px;
   }
+}
+
+.form__main {
+  padding-left: 41px;
 }
 
 .form__personal {
@@ -40,6 +47,7 @@
 
   @media (min-width: $tablet-screen-width) {
     width: 630px;
+    padding-bottom: 58px;
   }
 
   @media (min-width: $desktop-screen-width) {
@@ -55,6 +63,10 @@
   @media (min-width: $tablet-screen-width) {
     border-bottom: none;
   }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-right: 80px;
+  }
 }
 
 .form__label {
@@ -63,6 +75,14 @@
   margin-bottom: 12px;
 
   cursor: pointer;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-bottom: 32px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-bottom: 5px;
+  }
 
   &:last-of-type {
     margin-bottom: 7px;
@@ -90,19 +110,24 @@
 }
 
 .form__text {
-  margin-right: 9px;
+  margin-right: 19px;
 
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
   white-space: nowrap;
 
+  @media (min-width: $tablet-screen-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
   &--radio {
     position: relative;
 
     display: flex;
     align-items: center;
-    padding-left: 46px;
+    padding-left: 60px;
     height: 30px;
   }
 
@@ -144,6 +169,11 @@
     height: 30px;
 
     border: 1px solid #d2d2d2;
+
+    @media (min-width: $tablet-screen-width) {
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 
@@ -157,6 +187,11 @@
   text-transform: uppercase;
 
   border: 1px solid #e6e6e6;
+
+  @media (min-width: $tablet-screen-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 
   &:hover {
     transition-property: border;
@@ -230,6 +265,7 @@
   border-bottom: 1px solid #d2d2d2;
 
   @media (min-width: $tablet-screen-width) {
+    width: 630px;
     padding: 27px 24px;
 
     border: 1px solid #d2d2d2;
@@ -239,6 +275,10 @@
 .form__radio {
   display: block;
   margin-bottom: 12px;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-bottom: 19px;
+  }
 
   &:last-child {
     margin-bottom: 0;
@@ -284,6 +324,7 @@
   @media (min-width: $tablet-screen-width) {
     width: auto;
     display: inline-block;
+    margin-bottom: 48px;
 
     font-size: 36px;
   }
@@ -296,6 +337,10 @@
 
 .contact {
   border: none;
+}
+
+.form__comment {
+  margin-bottom: 74px;
 }
 
 .comment {
@@ -314,6 +359,10 @@
 .form__extra {
   padding-left: 0;
   padding-bottom: 50px;
+
+  @media (min-width: $tablet-screen-width) {
+    padding-bottom: 66px;
+  }
 }
 
 .extra {
@@ -347,7 +396,9 @@
   background-color: $green;
 
   @media (min-width: $tablet-screen-width) {
+    padding: 18px 63px 18px 63px;
     margin-right: 60px;
+    margin-bottom: 0;
 
     font-size: 20px;
   }
@@ -367,4 +418,9 @@
   justify-content: center;
 
   font-size: 14px;
+  line-height: 16px;
+
+  @media (min-width: $tablet-screen-width) {
+    font-size: 16px;
+  }
 }
