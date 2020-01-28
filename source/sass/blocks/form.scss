@@ -64,21 +64,6 @@
   }
 }
 
-.personal {
-  padding-top: 0;
-  padding-bottom: 62px;
-  border: none;
-  border-bottom: 1px solid #d2d2d2;
-
-  @media (min-width: $tablet-screen-width) {
-    border-bottom: none;
-  }
-
-  @media (min-width: $desktop-screen-width) {
-    margin-right: 138px;
-  }
-}
-
 .form__label {
   display: flex;
   align-items: center;
@@ -312,18 +297,6 @@
   }
 }
 
-.programms {
-  border: none;
-  border-bottom: 1px solid #d2d2d2;
-
-  @media (min-width: $tablet-screen-width) {
-    width: 630px;
-    padding: 27px 24px 31px 24px;
-
-    border: 1px solid #d2d2d2;
-  }
-}
-
 .form__radio {
   display: block;
   margin-bottom: 12px;
@@ -417,20 +390,12 @@
   padding-left: 0;
 }
 
-.contact {
-  border: none;
-}
-
 .form__comment {
   margin-bottom: 21px;
 
   @media (min-width: $tablet-screen-width) {
     margin-bottom: 62px;
   }
-}
-
-.comment {
-  border: none;
 }
 
 .form__textarea {
@@ -463,14 +428,6 @@
 
   @media (min-width: $desktop-screen-width) {
     padding-bottom: 79px;
-  }
-}
-
-.extra {
-  border: none;
-
-  @media (min-width: $tablet-screen-width) {
-    display: flex;
   }
 }
 

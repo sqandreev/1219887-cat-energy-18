@@ -1,0 +1,14 @@
+.personal {
+  padding-top: 0;
+  padding-bottom: 62px;
+  border: none;
+  border-bottom: 1px solid #d2d2d2;
+
+  @media (min-width: $tablet-screen-width) {
+    border-bottom: none;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    margin-right: 138px;
+  }
+}

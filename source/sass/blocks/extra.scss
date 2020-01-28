@@ -1,0 +1,7 @@
+.extra {
+  border: none;
+
+  @media (min-width: $tablet-screen-width) {
+    display: flex;
+  }
+}
