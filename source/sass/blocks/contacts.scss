@@ -22,8 +22,6 @@
 }
 
 .contacts .wrapper {
-  background-color: $primary-color;
-
   @media (min-width: $desktop-screen-width) {
     display: flex;
     align-items: center;
@@ -50,6 +48,8 @@
     width: 570px;
 
     z-index: 1;
+
+    background-color: #ffffff;
   }
 
   &--catalog {
