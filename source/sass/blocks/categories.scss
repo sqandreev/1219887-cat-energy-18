@@ -1,4 +1,4 @@
-.categories .wrapper {
+.categories__wrapper {
   @media (min-width: $tablet-screen-width) {
     padding-top: 25px;
   }
@@ -46,6 +46,7 @@
   font-weight: normal;
   padding-left: 69px;
   min-height: 50px;
+  color: #111111;
 
   @media (min-width: $tablet-screen-width) {
     font-size: 36px;
@@ -158,6 +159,7 @@
   line-height: 18px;
   width: 240px;
   border-bottom: 1px solid $light-gray;
+  color: #444444;
   font-family: "Arial", sans-serif;
 
   @media (min-width: $tablet-screen-width) {

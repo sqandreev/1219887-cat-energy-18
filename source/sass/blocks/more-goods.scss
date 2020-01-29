@@ -1,0 +1,133 @@
+.more-goods {
+  padding-top: 30px;
+  padding-bottom: 25px;
+
+  border-bottom: 1px solid #ededed;
+
+  @media (min-width: $tablet-screen-width) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 430px;
+    width: 324px;
+    padding-top: 25px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 40px;
+
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-top: 74px;
+    width: 245px;
+  }
+}
+
+.more-goods__title {
+  position: relative;
+
+  margin-top: 4px;
+  margin-bottom: 11px;
+  padding-top: 45px;
+
+  font-weight: normal;
+  font-family: "Oswald Regular", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111111;
+
+  @media (min-width: $tablet-screen-width) {
+    margin-top: 0;
+    margin-bottom: 28px;
+    width: 155px;
+    padding-top: 142px;
+
+    font-size: 20px;
+  }
+
+  @media (min-width: $desktop-screen-width) {
+    padding-top: 90px;
+  }
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: -4px;
+    left: 50%;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: linear-gradient(to right, transparent 14px, #d3d3d3 14px 16px, transparent 16px),
+      linear-gradient(to bottom, transparent 14px, #d3d3d3 14px 16px, transparent 16px);
+
+    transform: translateX(-50%);
+
+    @media (min-width: $tablet-screen-width) {
+      top: 34px;
+      width: 60px;
+      height: 60px;
+
+      background-image: linear-gradient(to right, transparent 29px, #d3d3d3 29px 31px, transparent 31px),
+        linear-gradient(to bottom, transparent 29px, #d3d3d3 29px 31px, transparent 31px);
+    }
+
+    @media (min-width: $desktop-screen-width) {
+      top: -21px;
+    }
+  }
+}
+
+.more-goods__description {
+  margin-top: 0;
+  margin-bottom: 17px;
+
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #444444;
+
+  @media (min-width: $tablet-screen-width) {
+    width: 170px;
+    margin-bottom: 85px;
+
+    font-size: 16px;
+  }
+}
+
+.more-goods__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 13px 0;
+
+  color: #444444;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-family: "Oswald Regular", "Arial", sans-serif;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #ebebeb;
+
+    cursor: pointer;
+  }
+
+  &:active {
+    color: #b9b9b9;
+  }
+}

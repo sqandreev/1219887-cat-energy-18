@@ -1,8 +1,14 @@
 .main-nav {
-  height: 65px; // Узнать причину 70px при min-height
+  height: 65px;
 
   @media (min-width: $tablet-screen-width) {
     height: auto;
+  }
+
+  &--no-js {
+    border-top: 1px solid #e6e6e6;
+    height: auto;
+    width: 100%;
   }
 }
 
@@ -32,6 +38,10 @@
       background-image: url("../img/icon-close.svg");
       background-size: 18px;
     }
+
+    &--no-js {
+      display: none;
+    }
   }
 
   .main-nav__list {
@@ -52,6 +62,10 @@
     &--active {
       display: block;
     }
+
+    &--no-js {
+      position: static;
+    }
   }
 
   .main-nav__link {
@@ -69,6 +83,10 @@
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
+
+    @media (min-width: $tablet-screen-width) {
+      font-family: "Oswald Regular", sans-serif;
+    }
   }
 }
 

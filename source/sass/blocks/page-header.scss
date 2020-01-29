@@ -37,10 +37,11 @@
   }
 }
 
-.page-header .wrapper {
+.page-header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   min-height: inherit;
 }
@@ -58,4 +59,9 @@
     width: 200px;
     height: 60px;
   }
+}
+
+
+.page-header__logo--no-js {
+  margin-bottom: 15px;
 }

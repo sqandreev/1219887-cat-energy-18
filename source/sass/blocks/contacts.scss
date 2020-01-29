@@ -21,7 +21,7 @@
   }
 }
 
-.contacts .wrapper {
+.contacts__wrapper {
   @media (min-width: $desktop-screen-width) {
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@
   line-height: 20px;
   font-weight: normal;
   text-transform: uppercase;
-  color: $black;
+  color: #111111;
 
   @media (min-width: $tablet-screen-width) {
     width: 155px;
